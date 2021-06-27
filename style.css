@@ -1,0 +1,285 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+nav{
+    background-color: black;
+    min-height: 80px;
+}
+.container{
+    width: 70%;
+    min-height: 80px;
+    margin: 0 auto;
+    gap: 1.5em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#containernav{
+    display: flex;
+}
+#menu{
+    min-height: 50px;
+    width: auto;
+    align-items: center;
+    justify-content: space-evenly;
+    display: flex;
+    flex: 2;
+}
+#menu h1{
+    color: white;
+    font-size: 30px;
+}
+li a{
+    text-decoration: none;
+    color: white;
+}
+#button{
+    height: 50px;
+    width: auto;
+    justify-content: space-evenly;
+    display: flex;
+    flex: 1;
+}
+#button button{
+    height: 60%;
+    width: 50%;
+    vertical-align: center;
+    align-items: right;
+    margin: 10px 0px auto auto;
+    color: white;
+    background-color: rgb(52, 192, 178);
+    border: none;
+}
+main{
+    height: auto;
+    width: auto;
+}
+#content{
+    min-height: 200px;
+    flex: 2;
+}
+#usercard{
+    min-height: 400px;
+    flex: 1;
+    margin: 30px 25px 30px auto;
+}
+#usercardrowtop{
+    min-height: 100px;
+    width: auto;
+    background-color: rgb(52, 192, 178);
+}
+#icondot{
+    height: 110px;
+    width: 110px;
+    background-color: rgb(179, 177, 177);
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+    left: 30px;
+    top: 60px;
+}
+#usericon{
+    height: 100px;
+    position: absolute;
+    left: 5px;
+    top: 5px;
+}
+#usercardrowbottom{
+    min-height: 300px;
+    width: auto;
+    background-color: white;
+    border: 5px solid rgb(201, 201, 201);
+}
+#usercardrowbottom h1{
+    color: black;
+    margin: 60px auto 25px 20px;
+}
+#usercardrowbottom p{
+    margin: 0px auto 10px 20px;
+}
+#mapmarker{
+    height: 20px;
+    margin: 10px auto 10px 20px;
+}
+#location h2{
+    font-size: 20px;
+    margin: 0px auto 10px 20px;
+    position: relative;
+    bottom: 33px;
+    left: 30px;
+}
+p{
+    color: black;
+    font-size: 15px;
+}
+#edit a{
+    margin: 0px auto 30px 20px;
+}
+#gear{
+    height: 20px;
+    margin-right: 10px;
+}
+#education{
+    min-height: 380px;
+    flex: 1;
+    margin: 30px 25px 20px auto;
+}
+#educationrowtop{
+    min-height: 60px;
+    width: auto;
+    background-color: rgb(58, 56, 56);
+    display: flex;
+}
+#educationrowtop h3{
+    margin: 20px auto 10px 18px;
+    color: white;
+    vertical-align: center;
+}
+#educationrowbottom{
+    min-height: 315px;
+    width: auto;
+    border: 5px solid rgb(201, 201, 201);
+}
+#educationrowbottom h2{
+    margin: 20px auto auto 20px;
+}
+#educationrowbottom #date{
+    margin: 15px auto auto 20px;
+}
+#educationrowbottom p{
+    margin: 15px auto auto 20px;
+}
+#aside{
+    min-height: 880px;
+    flex: 1;
+    vertical-align: top;
+}
+#requests{
+    min-height: 200px;
+    flex: 1;
+    margin: 35px auto;
+}
+#requestsrowtop{
+    min-height: 60px;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(58, 56, 56);
+}
+#dot2{
+    height: 40px;
+    width: 40px;
+    background-color: rgb(179, 177, 177);
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 30px;
+}
+#dot2 p{
+    position: relative;
+    left: 14px;
+    top: 10px;
+}
+#requestsrowtop h3{
+    margin: 15px auto 15px 15px;
+    display: inline-block;
+    color: white;
+}
+#requestsrowbottom{
+    min-height: 150px;
+    width: auto;
+    background-color: white;
+    border: 5px solid rgb(201, 201, 201);
+}
+
+.dotrequests{
+    height: 40px;
+    width: auto;
+}
+.requestslines{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    vertical-align: center;
+    margin-top: 20px;
+}
+h5{
+    color: black;
+    font-size: 15px;
+}
+#connections{
+    min-height: 300px;
+    flex: 1;
+}
+#connectionsrowtop{
+    min-height: 60px;
+    width: auto;
+    background-color: rgb(58, 56, 56);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#dot500{
+    height: 30px;
+    width: 50px;
+    background-color: rgb(179, 177, 177);
+    border-radius: 75%;
+    display: inline-block;
+    margin-left: 15px;
+}
+#dot500 p{
+    position: relative;
+    left: 7px;
+    top: 6px;
+}
+#connectionsrowtop h3{
+    color: white;
+}
+#connectionsrowmid{
+    min-height: 200px;
+    width: auto;
+    border: 5px solid rgb(201, 201, 201);
+}
+.connectionslines{
+    display: inline-flex;
+    justify-content: space-between;
+    vertical-align: center;
+    margin: 20px 20px auto 20px
+}
+.connectionslines h5{
+    margin-left: 10px;
+    vertical-align: center;
+}
+#connectionsrowbottom{
+    min-height: 50px;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 5px solid rgb(201, 201, 201);
+}
+#concolbottom a{
+    margin: 10px;
+}
+#ppl{
+    height: 40px;
+    width: auto;
+    border-radius: 50%;
+}
+ul{
+    align-items: center;
+    justify-content: space-evenly;
+    display: flex;
+    flex: 2;
+}
+li{
+    list-style-type: none;
+}
+h1{
+    vertical-align: center;
+    margin: 5px;
+}
